@@ -65,6 +65,13 @@ a.coc:hover {
   border: none;
 }
 
+/*matches length of live-site button to buttons above*/
+@media (min-width: 1180px) {
+  .button.long-button {
+    width: 370px;
+  }
+}
+
 .notification {
   margin: 0 auto;
   display: inline-block;
